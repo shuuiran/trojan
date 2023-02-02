@@ -28,9 +28,11 @@ trojan多用户管理部署程序
 ```
 #安装/更新
 source <(curl -sL https://git.io/trojan-install)
+source <(curl -sL https://raw.githubusercontent.com/shuuiran/trojan/master/install.sh)
 
 #卸载
 source <(curl -sL https://git.io/trojan-install) --remove
+source <(curl -sL https://raw.githubusercontent.com/shuuiran/trojan/master/install.sh) --remove
 
 ```
 安装完后输入'trojan'可进入管理程序   
